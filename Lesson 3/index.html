@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            ol{
+                list-style-type: decimal;
+                list-style-position: outside;
+            }
+            
+            ul{
+                list-style-image: url(img/alert-custom.png);
+            }
+            
+            dt{
+                font-weight: bold;
+                color: brown;
+            }
+            
+            .ar{
+                list-style-type: armenian
+            }
+            
+            ol ol ul{
+                list-style-image: url(img/alert-custom.png);
+            }
+            .season{
+                list-style-image: url(img/arrow.png);
+            }
+            .winter{
+                list-style-image: url(img/winter_16.png)
+            }
+            
+            
+            ol li::marker{
+                font-weight: bold;
+                color: black;
+            }
+            
+            .rim{
+                list-style-type: upper-roman;
+                color:#293d66;
+            }
+                    
+            .dec{
+                list-style-type: decimal;
+            }
+            
+            .lat{
+                list-style-type: lower-latin
+            }
+            
+            
+            
+            .underline{
+                text-decoration: line-through;
+            }
+        </style>
+    </head>
+    <body>
+       <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, fuga?</p>-->
+        <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi magnam maxime assumenda fugit, suscipit ullam minus sint eligendi, perferendis harum recusandae nesciunt culpa ducimus laboriosam praesentium maiores aut quos alias eius accusamus aliquam! Quo reiciendis iusto deserunt ex doloremque. Nemo eligendi quibusdam, officia doloremque molestias est laborum non cumque alias.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam omnis vero, vel explicabo necessitatibus alias itaque eum nostrum! Cupiditate aliquam iusto sit rem quasi culpa rerum quas ipsa nisi reiciendis in obcaecati saepe nesciunt optio doloremque non magni officia facilis tenetur molestias, numquam quae corporis, ipsam. Illo consectetur iure, dolorem vitae ut deleniti error dicta officia, laborum dignissimos voluptatem quod.</li>
+            <li>Країни
+                <ol class="ar">
+                    <li>Україна
+                        <ul>
+                            <li>werweer</li>
+                            <li>werwerwerwer</li>
+                            <li>eryrtyu3rg 3t3</li>
+                        </ul>
+                    </li>
+                    <li>США</li>
+                    <li >Франція</li>
+                    <li>Італія</li>
+                    <li>Ангола</li>
+                    <li>Румунія</li>
+                </ol>
+            </li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur.</li>
+        </ol>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem et delectus dolore animi, eum laborum, temporibus nulla praesentium eos labore.</p>
+        <ol start="6">
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>...............</li>
+            <li value="999">Lorem ipsum dolor sit amet.</li>
+        </ol>
+        <hr>
+        <ul class="country">
+            <li>Україна</li>
+            <li>США</li>
+            <li class="underline">Франція <img src="img/alert-custom.png"></li>
+            <li>Італія</li>
+            <li>Ангола</li>
+            <li>Румунія</li>
+        </ul>
+        <hr>
+        <dl>
+            <dt>Termin 1</dt>
+            <dd>Lorem ipsum dolor sit amet, <i>consectetur</i> adipisicing elit. Consequatur, alias, tempora deleniti minus explicabo dolore in quo possimus quisquam maiores.</dd>
+            <dt>Termin 2</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed alias iste, modi odio possimus molestias illum, voluptatum iusto aperiam exercitationem perferendis temporibus nulla, consequatur maiores hic quam repellat. Repellat, doloribus.</dd>
+            <dt></dt>
+            <dd></dd>
+        </dl>
+        <hr>
+        
+        <!--ul>(li>ul>li*3)*4-->
+        
+        <ul class="season">
+            <li>Зима
+                <ul class="winter">
+                    <li>Грудень</li>
+                    <li>Січень</li>
+                    <li>Лютий</li>           
+                </ul>
+            </li>
+            <li>Весна
+                <ul>
+                    <li>Березень</li>
+                    <li>Квітень</li>
+                    <li>Травень</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <hr>
+        
+        <ol class="rim">
+            <li>History
+                <ol class="dec">
+                    <li>Development</li>
+                    <li>HTML versions timeline
+                        <ol class="lat">
+                            <li>HTML draft version timeline</li>
+                            <li>XHTML versions<ul>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        
+        
+        
+    </body>
+</html>

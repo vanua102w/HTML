@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                width:80%;
+                min-width:650px;
+                max-width:800px;
+                font-family:Helvetica;
+                margin:0 auto;
+
+            }
+            caption{
+                text-align: right;
+                text-transform: uppercase;
+                color:#666666;
+                font-weight: 750;
+
+            }
+            tr{
+                height: 45px;
+            }
+            th{
+                color:#ffffff;
+                border-bottom:2px solid white;
+            }
+            tr td:first-child
+            {
+                color:#666666;
+                padding-left: 15px;
+                text-align: left;
+
+            }
+            td,th{
+                text-align: center;
+
+            }
+            .col1{
+                background-color:#dddddd;
+                width: auto;
+            }
+            .col2{
+                background-color: #17d0d3;
+                width: 16%;
+
+            }
+            .col3{
+                background-color: #8ac149;
+                width: 16%;
+            }
+            .col4{
+                background-color: #feca28;
+                width: 16%;
+            }
+            .col5{
+                background-color: #f44236;
+                width: 16%;
+            }
+            tr th:first-child{
+                color:#666666;
+                font-weight: 750;
+
+
+            }
+            span{
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 1.2em;
+                border: 2px solid #ffffff;
+                border-radius: 50%;
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                line-height: 25px
+
+            }
+            tfoot{
+                color:#ffffff;
+                border-top:2px solid;
+                font-weight:700px;
+            }
+            tfoot tr td:first-child{
+                text-align: center;
+                text-transform: uppercase;
+                width:300px;
+
+            }
+        </style>
+    </head>
+    <body>
+
+        <table>
+           <caption>title table</caption>
+           <colgroup>
+               <col class="col1">
+               <col class="col2">
+               <col class="col3">
+               <col class="col4">
+               <col class="col5">
+           </colgroup>
+            <thead>
+                <tr>
+                    <th>specification</th>
+                    <th>free</th>
+                    <th>basic</th>
+                    <th>standart</th>
+                    <th>premium</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem ipsum dolor.</td>
+                    <td><span>+</span></td>
+                    <td><span>-</span></td>
+                    <td><span>-</span></td>
+                    <td><span>+</span></td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor.</td>
+                    <td><span>+</span></td>
+                    <td><span>+</span></td>
+                    <td><span>-</span></td>
+                    <td><span>+</span></td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor.</td>
+                    <td><span>+</span></td>
+                    <td><span>+</span></td>
+                    <td><span>+</span></td>
+                    <td><span>+</span></td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor.</td>
+                    <td><span>+</span></td>
+                    <td><span>-</span></td>
+                    <td><span>-</span></td>
+                    <td><span>+</span></td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor.</td>
+                    <td><span>-</span></td>
+                    <td><span>-</span></td>
+                    <td><span>+</span></td>
+                    <td><span>+</span></td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor.</td>
+                    <td><span>-</span></td>
+                    <td><span>-</span></td>
+                    <td><span>+</span></td>
+                    <td><span>+</span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>price</td>
+                    <td>$ 10.00</td>
+                    <td>$ 20.00</td>
+                    <td>$ 30.00</td>
+                    <td>$ 40.00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>

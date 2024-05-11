@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            table{
+                font-family: Segoe UI;
+                margin:auto;
+                font-size:17px;
+                font-weight:300px;
+                min-width:550px;
+                max-width: 900px;
+
+                border-collapse: collapse;
+            }
+            .col-1{
+                width:auto;
+            }
+            .col-2{
+                width:17%
+            }
+            tbody tr td{
+                text-align: center;
+            }
+            td{
+                height:27px;
+            }
+            thead{
+                color:#ffffff
+
+            }
+            .col1{
+                background-color: rgb(78 98 141);
+            }
+            .col5{
+                background-color: rgb(121, 135, 170);
+                border-radius:10px 0  0 0 ;
+            }
+            .col2{
+                background-color: rgb(45 65 116);
+            }
+            .col3{
+                background-color: rgb(22 41 84);
+            }
+            .col4{
+                background-color:  rgb( 7 21 56);
+                border-radius: 0  10px  0 0 ;
+            }
+            span{
+                display: block;
+                font-size: 35px;
+                margin-top: 30px;
+            }
+            .text1{
+                margin-top:0;
+            }
+            a{
+                text-decoration: none;
+                color:rgb(95,95,95);
+                font-size: 20px;
+
+            }
+            .btn{
+                 width:80px;
+                height:30px;
+                background:rgb(211 211 211);
+                margin-left: 10px;
+                border:0.5px solid;
+
+            }
+            tr:nth-child(odd) td:nth-child(even){
+                background-color: rgb(231,231,231);
+            }
+            tr:nth-child(even) td:nth-child(even){
+                background-color: rgb(243,243,243);
+            }
+            tr:nth-child(odd) td:nth-child(odd){
+                background-color: rgb(219,219,219);
+            }
+            tr:nth-child(even) td:nth-child(odd){
+                background-color: rgb(236,236,236);
+            }
+
+            tbody tr:last-child td:last-child{
+                border-radius: 0 0 10px 0;
+            }
+
+            tbody tr:last-child td:first-child{
+                border-radius: 0 0 0 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+           <colgroup>
+               <col class="col-1">
+               <col span="4" class="col-2">
+           </colgroup>
+            <thead>
+               <tr>
+                <th class="col5">Choose your plan</th>
+                <th class="col1"><div><p>Starter</p><span>10$</span><p class="text1">per month</p></div></th>
+                <th class="col2"><div><p>Econom</p><span>30$</span><p class="text1">per month</p></div></th>
+                   <th class="col3"><div><p>standart</p><span>59$</span><p class="text1">per month</p></div></th>
+                <th class="col4"><div><p>Professional</p><span>99$</span><p class="text1">per month</p></div></th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>20GB</td>
+                        <td>40GB</td>
+                        <td>110GB</td>
+                        <td>Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>120GB</td>
+                        <td>240GB</td>
+                        <td>610GB</td>
+                        <td>1300GB</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>1</td>
+                        <td>15</td>
+                        <td>60</td>
+                        <td>Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>1</td>
+                        <td>15</td>
+                        <td>60</td>
+                        <td>Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor.</td>
+                        <td>2</td>
+                        <td>6</td>
+                        <td>14</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td><a href=""><div class="btn">START</div></a></td>
+                             <td><a href=""><div class="btn">START</div></a></td>
+                             <td><a href=""><div class="btn">START</div></a></td>
+                             <td><a href=""><div class="btn">START</div></a></td>
+                    </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
